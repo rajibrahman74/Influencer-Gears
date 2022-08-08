@@ -68,9 +68,8 @@ nav ul li i {
 
 .top-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 185px;
     margin-top: 50px;
     margin-bottom: 70px;
 }
@@ -94,7 +93,6 @@ nav ul li i {
     font-size: 16px;
     line-height: 24px;
     font-feature-settings: 'liga' off;
-
     color: #3A3A3A;
 }
 
@@ -118,9 +116,6 @@ nav ul li i {
     color: white;
 }
 
-
-
-
 .top-section > .img-container {
     display: grid;
     place-items: center;
@@ -132,8 +127,8 @@ nav ul li i {
     background-repeat: no-repeat;
 }
 .top-section > .img-container > img {
-    height: 95%;
-    width: 95%;
+    height: 90%;
+    width: 90%;
 }
 
 /* logo section style start */
@@ -141,7 +136,78 @@ nav ul li i {
 .logos {
     display: flex;
     justify-content: space-evenly;
-    padding: 30px 0;
-    border-top: 0.5px solid;
-    border-bottom: 0.5px solid;
+    padding: 40px 0;
+    background: white;
+    border-radius: 5px;
+}
+
+/* Populer collection container style start */
+
+.card {
+    width: 329px;
+    height: 482.3px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 14.5px;
+}
+.card img {
+    width: 300px;
+    height: 259.39px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.card-title h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+    padding-top: 17px;
+}
+
+.card-title h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.card-rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.card-rating .checked {
+    width: 11.07px;
+    height: 10.32px;
+    left: calc(50% - 11.07px/2 + 0px);
+    top: calc(50% - 10.32px/2 + 0.18px);
+    color: #FB8200;
+}
+.card-rating .fa-star {
+    width: 11.07px;
+    height: 10.32px;
+    left: calc(50% - 11.07px/2 + 0px);
+    top: calc(50% - 10.32px/2 + 0.18px);
+}
+
+.card-rating p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #5E6366;
 }
