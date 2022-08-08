@@ -161,7 +161,7 @@ nav ul li i {
 .card-title {
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 5px;
 }
 .card-title h2 {
     font-weight: 500;
@@ -169,7 +169,7 @@ nav ul li i {
     line-height: 40px;
     font-feature-settings: 'liga' off;
     color: #18191F;
-    padding-top: 17px;
+    padding-top: 14px;
 }
 
 .card-title h3 {
@@ -185,29 +185,48 @@ nav ul li i {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+    margin-top: 4px;
 }
-.card-rating .checked {
-    width: 11.07px;
-    height: 10.32px;
+.star-span span {
+    margin-right: 12px;
+}
+.star-span .checked {
+    width: 1px;
+    height: 0.25px;
     left: calc(50% - 11.07px/2 + 0px);
     top: calc(50% - 10.32px/2 + 0.18px);
     color: #FB8200;
 }
-.card-rating .fa-star {
-    width: 11.07px;
-    height: 10.32px;
+.star-span .fa-star {
+    width: 1px;
+    height: 0.25px;
     left: calc(50% - 11.07px/2 + 0px);
     top: calc(50% - 10.32px/2 + 0.18px);
 }
 
-.card-rating p {
+.card-rating >  div > p {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
     letter-spacing: 0.1px;
     color: #5E6366;
+}
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 3px;
+}
+.card-info p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.018em;
+    color: #787885;
 }
