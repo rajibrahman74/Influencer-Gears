@@ -174,6 +174,12 @@ nav ul li i {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     padding: 14.5px;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
 }
 .card img {
     width: 300px;
@@ -394,7 +400,7 @@ nav ul li i {
     place-content: center;
     width: 50%;
     height: 65vh;
-    background: #11113b;
+    background: #0A0826;
 }
 .left-content {
     display: flex;
@@ -495,6 +501,3 @@ footer p {
     color: white;
     font-size: 20px;
 }
-
-
-
