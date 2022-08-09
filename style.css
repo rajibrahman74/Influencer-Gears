@@ -496,7 +496,13 @@ footer p {
     margin-top: 12px;
     border-radius: 50%;
     background-color: #24242e;
+    transition: 0.2s ease-in-out;
 }
+.icon:hover {
+    transform: scale(1.6);
+    transition: 0.2s ease-in-out;
+}
+
 .icon a {
     color: white;
     font-size: 20px;
