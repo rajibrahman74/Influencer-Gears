@@ -140,6 +140,7 @@ nav ul li i {
     padding: 40px 0;
     background: white;
     border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -273,9 +274,73 @@ nav ul li i {
     font-weight: 900;
     font-size: 16px;
     line-height: 24px;
-    color: rgba(224, 44, 109, 0.87);
+    color: #E02C6D;
 }
 
+
+/* Features Products section style start */
+
+.features-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    margin-top: 55px;
+    margin-bottom: 95px;
+}
+
+.features-section .features-img-container {
+    width: 404px;
+    height: 270px;
+}
+.features-section .features-img-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.features-section .feature-content-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 610px;
+    height: 224px;
+    flex-direction: column;
+    gap: 16px;
+}
+.feature-content-container h1 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.feature-content-container p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.feature-content-container button {
+    width: 155px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+    border: none;
+    background: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+.feature-content-container button a {
+    text-decoration: none;
+    color: white;
+}
 
 /* About section start */
 
@@ -285,12 +350,31 @@ nav ul li i {
     align-items: center;
     color: white;
     border-radius: 1px;
+    position: relative;
 }
 
-/* .about-section .are-you {
+.about-section > .are-you {
     position: absolute;
-    top: 100px;
-} */
+    text-align: center;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 75px;
+}
+.about-section .or {
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 75px;
+}
 
 .about-section .about-heading {
     font-weight: 700;
@@ -307,7 +391,6 @@ nav ul li i {
     font-weight: 700;
     font-size: 16px;
     line-height: 28px;
-    color: #b5aaaa;
 }
 
 
@@ -331,7 +414,7 @@ nav ul li i {
     border: none;
     padding: 10px 30px;
     border-radius: 2px;
-    background: rgb(174, 48, 48);
+    background: #E02C6D;
 }
 
 .left-content button a {
@@ -346,7 +429,7 @@ nav ul li i {
     place-content: center;;
     width: 50%;
     height: 65vh;
-    background: rgb(174, 48, 48);
+    background: #E02C6D;
 }
 
 .right-content {
